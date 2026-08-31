@@ -193,10 +193,10 @@ Machine Learning
 
 ## 📈 Progress
 
-* [ ] Pandas Fundamentals
-* [ ] Series
-* [ ] DataFrame
-* [ ] DataFrame Basics
+* [x] Pandas Fundamentals
+* [x] Series
+* [x] DataFrame
+* [x] DataFrame Basics
 * [ ] Indexing & Selection
 * [ ] Filtering
 * [ ] Modifying Data
