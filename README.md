@@ -197,7 +197,7 @@ Machine Learning
 * [x] Series
 * [x] DataFrame
 * [x] DataFrame Basics
-* [ ] Indexing & Selection
+* [x] Indexing & Selection
 * [ ] Filtering
 * [ ] Modifying Data
 * [ ] Missing Data
