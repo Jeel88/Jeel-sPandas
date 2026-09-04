@@ -201,10 +201,10 @@ Machine Learning
 * [x] Filtering
 * [x] Modifying Data
 * [x] Missing Data
-* [ ] Sorting
-* [ ] Data Analysis
-* [ ] GroupBy
-* [ ] Combining Data
+* [x] Sorting
+* [x] Data Analysis
+* [x] GroupBy
+* [x] Combining Data
 * [ ] String Operations
 * [ ] Date & Time
 * [ ] File Handling
