@@ -198,9 +198,9 @@ Machine Learning
 * [x] DataFrame
 * [x] DataFrame Basics
 * [x] Indexing & Selection
-* [ ] Filtering
-* [ ] Modifying Data
-* [ ] Missing Data
+* [x] Filtering
+* [x] Modifying Data
+* [x] Missing Data
 * [ ] Sorting
 * [ ] Data Analysis
 * [ ] GroupBy
