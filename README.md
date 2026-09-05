@@ -21,7 +21,7 @@ By completing this section, I will be able to:
 * Work with strings and dates
 * Combine multiple datasets
 * Read and write common data formats
-* Perform practical data manipulation and analysis
+* Perform advanced data manipulation and transformation
 
 ---
 
@@ -47,6 +47,9 @@ By completing this section, I will be able to:
 * `tail()`
 * `info()`
 * `describe()`
+* `size`
+* `ndim`
+* `values`
 
 ### 3. Indexing and Selection
 
@@ -56,6 +59,7 @@ By completing this section, I will be able to:
 * `loc[]`
 * `iloc[]`
 * Selecting individual cells
+* Row and column slicing
 * Index manipulation
 
 ### 4. Filtering Data
@@ -67,6 +71,8 @@ By completing this section, I will be able to:
 * `~`
 * `isin()`
 * `between()`
+* String-based filtering
+* `query()`
 
 ### 5. Adding and Modifying Data
 
@@ -78,6 +84,7 @@ By completing this section, I will be able to:
 * Removing rows
 * `drop()`
 * `rename()`
+* `insert()`
 
 ### 6. Missing Data
 
@@ -87,6 +94,8 @@ By completing this section, I will be able to:
 * `notna()`
 * `dropna()`
 * `fillna()`
+* Mean and median filling
+* Mode-based filling
 
 ### 7. Sorting
 
@@ -95,17 +104,25 @@ By completing this section, I will be able to:
 * Ascending order
 * Descending order
 * Sorting by multiple columns
+* `nlargest()`
+* `nsmallest()`
 
 ### 8. Data Analysis
 
 * `sum()`
 * `mean()`
 * `median()`
+* `mode()`
 * `min()`
 * `max()`
 * `count()`
+* `std()`
+* `var()`
+* `describe()`
+* `idxmax()`
+* `idxmin()`
+* `agg()`
 * `value_counts()`
-* Basic statistical operations
 
 ### 9. Grouping and Aggregation
 
@@ -113,30 +130,49 @@ By completing this section, I will be able to:
 * Aggregation
 * Multiple aggregations
 * Group-based analysis
+* Grouping by multiple columns
+* `reset_index()`
+* Sorting grouped results
 
 ### 10. Combining Data
 
 * `concat()`
 * `merge()`
 * `join()`
+* Inner Join
+* Left Join
+* Right Join
+* Outer Join
 * Combining multiple DataFrames
 
 ### 11. String Operations
 
 * `.str.lower()`
 * `.str.upper()`
-* `.str.contains()`
-* `.str.replace()`
 * `.str.len()`
+* `.str.contains()`
+* `.str.startswith()`
+* `.str.endswith()`
+* `.str.replace()`
+* `.str.strip()`
+* `.str.split()`
+* `.str.count()`
 * String filtering
+* Extracting information from strings
 
 ### 12. Date and Time
 
 * `pd.to_datetime()`
-* Extracting year, month, and day
+* `.dt.year`
+* `.dt.month`
+* `.dt.day`
+* `.dt.day_name()`
 * Date filtering
+* Date sorting
 * Date differences
-* Time-based operations
+* `pd.Timestamp`
+* `pd.date_range()`
+* Date formatting
 
 ### 13. Reading and Writing Data
 
@@ -144,8 +180,11 @@ By completing this section, I will be able to:
 * `to_csv()`
 * `read_excel()`
 * `to_excel()`
-* Reading JSON
-* Writing JSON
+* `usecols`
+* `sep`
+* `na_values`
+* Reading and writing structured data
+* Saving analysis results
 
 ### 14. Advanced Pandas
 
@@ -153,10 +192,21 @@ By completing this section, I will be able to:
 * Lambda functions
 * `map()`
 * `replace()`
+* `rank()`
+* `unique()`
+* `nunique()`
+* `duplicated()`
 * `drop_duplicates()`
+* `copy()`
+* `np.where()`
+* `np.select()`
+* `query()`
+* `transform()`
+* `nlargest()`
+* `nsmallest()`
 * `set_index()`
 * `reset_index()`
-* Index manipulation
+* Memory usage
 * Advanced data transformation
 
 ---
@@ -187,8 +237,6 @@ Data Analysis
 Data Visualization
    ↓
 Machine Learning
-```
-
 ---
 
 ## 📈 Progress
@@ -205,10 +253,10 @@ Machine Learning
 * [x] Data Analysis
 * [x] GroupBy
 * [x] Combining Data
-* [ ] String Operations
-* [ ] Date & Time
-* [ ] File Handling
-* [ ] Advanced Pandas
+* [x] String Operations
+* [x] Date & Time
+* [x] File Handling
+* [x] Advanced Pandas
 
 ---
 
